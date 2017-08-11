@@ -50,7 +50,7 @@ namespace ForgetTheMilkTests
         [Test, TestCaseSource("GetTestData")]
         public void validateInput(string testName, string expDesc, string expDueDate)
         {
-            //Act / Arrange
+            // Act / Arrange
 
             var task = new Task(expDesc, default(DateTime));
             DateTime parsedExpDueDate;
