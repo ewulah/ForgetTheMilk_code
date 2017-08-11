@@ -31,7 +31,7 @@ namespace ForgetTheMilkTests
 
         public static IEnumerable<string[]> GetTestData()
         {
-            CsvFileReader reader = new CsvFileReader("D:\\CSharpCode\\ForgetTheMilk\\ForgetTheMilk\\input.csv");
+            CsvFileReader reader = new CsvFileReader("D:\\CSharpCode\\ForgetTheMilk\\ClassLibrary2\\input.csv");
             CsvRow row = new CsvRow();
             while (reader.ReadRow(row))
             {
